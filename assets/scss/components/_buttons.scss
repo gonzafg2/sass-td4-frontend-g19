@@ -1,0 +1,16 @@
+// Forma A
+.button {
+  &-success {
+    @include button-general(#00c120, #000, 60px);
+    box-shadow: $box-shadow-success;
+    border: 1px solid #00c120;
+  }
+  &-acept {
+    @include button-general(#001dc1);
+    border: 1px solid #001dc1;
+  }
+  &-cancel {
+    @include button-general(#d84040, #000);
+    border: 1px solid #d84040;
+  }
+}

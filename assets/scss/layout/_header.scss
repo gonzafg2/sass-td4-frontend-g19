@@ -1,0 +1,19 @@
+%message-shared {
+  border: 1px solid #ccc;
+  padding: 10px;
+  color: #333;
+}
+
+.header {
+  @extend %message-shared;
+  display: flex;
+  flex-direction: column;
+  &__subtitle {
+    font-size: 14px;
+    color: $color-primary;
+  }
+  &__title {
+    font-size: 14px;
+    color: $color-primary;
+  }
+}
